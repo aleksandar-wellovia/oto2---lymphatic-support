@@ -1673,6 +1673,26 @@ body,
 .footer .nv-footer-ref__links span{
     color:#6f6f6f !important;
 }
+/* restore-content-gray-separators */
+.warming-oil-source section{
+    border-bottom:1px solid #e8e3d9 !important;
+    padding-bottom:34px !important;
+    margin-bottom:34px !important;
+}
+.warming-oil-source section:last-child{
+    border-bottom:0 !important;
+    padding-bottom:12px !important;
+    margin-bottom:12px !important;
+}
+.warming-oil-source section > h2:first-child{
+    margin-top:0 !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source section{
+        padding-bottom:30px !important;
+        margin-bottom:30px !important;
+    }
+}
 </style>
 
 </head>
